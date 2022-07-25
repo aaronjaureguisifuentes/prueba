@@ -18,5 +18,16 @@
 <p>Is a command interpreter of an operating system </p>
 
 <h3> Copilation and Usage </h3>
-<p> gcc -Wall -Werror -Wextra -pedantic -std=gnu89 .c -o hsh </p>
-<p>  </p>
+<p> git clone [Link Repository] </p>
+<p> $gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o *hsh </p>
+<p>./hsh</p>
+
+<p>[Enter following the shell commands]</p>
+
+<h3>Comands Description</h3>
+<span> echo Holberton </span>
+<p> In the above command, the echo command will write its Holberton argument to standard output.</p>
+<p>Another command to execute in the hsh, in order to have a better interaction with the program, is the cd command, which allows us to change the directory and be able to view the different files that exist in it.</p>
+<span>cd</span>
+<p>In order to list the number of files that exist in our directory, we can use the following command:</p>
+<span>ls</span>
