@@ -14,7 +14,7 @@
 <p>./hsh</p>
 <p>Returns: 0 upon success or exit status upon error.</p>
 
-<h2> Usage </h2>
+<h2> Use </h2>
 <p>After compiling the program, you can use it in both interactive and non-interactive mode.</p>
 
 <h3> Interactive Mode </h3>
@@ -37,6 +37,51 @@ echo "pwd" | ./a.out
 <tr><th>env</th><th>prints the environment</th></tr>
 <tr><th>exit</th><th>exits out of our shell program</th></tr>
 </table>
+
+<h2> Example Usage </h2>
+<li>
+```
+ls -l
+```
+lists directory contents using a long listing format.
+</li>
+```
+$ ls -l /tmp/
+total 0
+```
+<li>
+```
+$ pwd
+```
+prints the working directory.
+</li>
+```
+$ pwd
+/home/vagrant/shelltesting
+```
+<li>
+```
+$ fakefile
+```
+prints error because "fakefile" does not exist
+</li>
+```
+$ fakefile
+fakefile: No such file or directory
+```
+<h2> Files </h2>
+<table>
+<tr><th>File Name</th><th>Description</th></tr>
+<tr><th>shell.c</th><th>The main function, which calls other major functions for shell.</th></tr>
+<tr><th>programflowhelpers.c</th><th>Major helper functions for shell (prompt, read user input, concatenate string for execve, fork, execute).</th></tr>
+<tr><th>stringhelpers.c</th><th>Helper functions for reading and manipulating strings.</th></tr>
+<tr><th>tokenize+PATHhelpers.c</th><th>Functions for tokenizing user input and handling the PATH.</th></tr>
+<tr><th>otherhelpers.c</th><th>Other helper functions for strings and env built-in.</th></tr>
+<tr><th>holberton.h</th><th>Header file with function prototypes, variables, and libraries.</th></tr>
+</table>
+
+<h2> About </h2>
+<p> Created on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89 </p>
 
 # Authors
 [<img src="https://avatars.githubusercontent.com/u/101225802?v=4" width=100><br><sub>Aaron Jauregui</sub>](https://github.com/aaronJau21) |  [<img src="https://avatars.githubusercontent.com/u/69946309?v=4" width=100><br><sub>Franco Cardenas </sub>](https://github.com/gustavofranco26) |
