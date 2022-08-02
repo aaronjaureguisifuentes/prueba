@@ -27,7 +27,7 @@
 <p>In order to list the number of files that exist in our directory, we can use the following command:</p>
 <span>ls</span>*/
 <h1 align ="center">
-<img src="https://i.postimg.cc/8chZ4K8N/shell.jpg" height="60%" width="50%">
+<img src="phttps://postimg.cc/mzwNsnR9" target="_blank" height="80%" width="80%">
 </h1>
 
 # Authors
