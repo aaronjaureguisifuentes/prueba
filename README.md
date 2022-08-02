@@ -28,7 +28,7 @@
 <span>ls</span>
 
 <h1 align ="center">
-[![shells.jpg](https://i.postimg.cc/zvmdnmcx/shells.jpg)](https://postimg.cc/mzwNsnR9)
+<a href="https://postimg.cc/mzwNsnR9" target="_blank"><img src="https://i.postimg.cc/mzwNsnR9/shells.jpg" alt="shells"/></a>
 </h1>
 
 # Authors
