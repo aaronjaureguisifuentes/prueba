@@ -25,10 +25,10 @@
 <p>Another command to execute in the hsh, in order to have a better interaction with the program, is the cd command, which allows us to change the directory and be able to view the different files that exist in it.</p>
 <span>cd</span>
 <p>In order to list the number of files that exist in our directory, we can use the following command:</p>
-<span>ls</span>*/
+<span>ls</span>
+
 <h1 align ="center">
-<img src="https://postimg.cc/mzwNsnR9" target="_blank" height="20%" width="20%">
-</h1>
+<img src="https://i.postimg.cc/mzwNsnR9/shells.jpg" height="80%" width="80%"></h1>
 
 # Authors
 | [<img src="https://avatars.githubusercontent.com/u/101225802?v=4" width=100><br><sub>Aaron Jauregui</sub>](https://github.com/aaronJau21) |  [<img src="https://avatars.githubusercontent.com/u/69946309?v=4" width=100><br><sub>Franco Cardenas </sub>](https://github.com/gustavofranco26) |
