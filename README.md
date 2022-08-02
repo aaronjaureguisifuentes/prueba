@@ -19,13 +19,13 @@
 
 <h3> Interactive Mode </h3>
 <ul>
-<p>From the command line, enter "./" , followed by the executable name (ex: "./a.out").</p>
-<p>After the "$ " prompt appears, type in a command to be executed. Repeat as desired.</p>
-<p>To exit the program, you can type in either crtl + d or "exit".</p>
+<li>From the command line, enter "./" , followed by the executable name (ex: "./a.out").</li>
+<li>After the "$ " prompt appears, type in a command to be executed. Repeat as desired.</li>
+<li>To exit the program, you can type in either crtl + d or "exit".</li>
 </ul>
 <h3> Non - Interactive Mode </h3>
 <ul>
-From the command line, use echo to pipe a command into the shell. Here's an example:
+<li>From the command line, use echo to pipe a command into the shell. Here's an example:</li>
 </ul>
 
 ```
