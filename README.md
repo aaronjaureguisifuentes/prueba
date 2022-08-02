@@ -33,7 +33,7 @@ echo "pwd" | ./a.out
 ```
 
 <table>
-<tr><th>Command</th><th>Description</th></tr>
+<tr><th left="" >Command</th><th>Description</th></tr>
 <tr><th>env</th><th>prints the environment</th></tr>
 <tr><th>exit</th><th>exits out of our shell program</th></tr>
 </table>
