@@ -25,13 +25,12 @@
 </ul>
 <h3> Non - Interactive Mode </h3>
 <ul>
-<p>From the command line, use echo to pipe a command into the shell. Here's an example:</p>
+From the command line, use echo to pipe a command into the shell. Here's an example:
 </ul>
 
 ```
 echo "pwd" | ./a.out
 ```
-
 
 <table>
 <tr><th>Command</th><th>Description</th></tr>
