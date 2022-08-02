@@ -28,7 +28,7 @@
 <span>ls</span>
 
 <h1 align ="center">
-<a href="https://postimg.cc/mzwNsnR9" target="_blank"><img src="https://i.postimg.cc/mzwNsnR9/shells.jpg" alt="shells"/></a>
+<a href="https://postimg.cc/mzwNsnR9" target="_blank"><img src="https://i.postimg.cc/mzwNsnR9/shells.jpg" height="80%" width="80%" alt="shells"/></a>
 </h1>
 
 # Authors
