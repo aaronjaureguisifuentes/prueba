@@ -1,6 +1,6 @@
 <h1>C - Simple Shell</h1>
 <hr />
-<h3>collaborators</h3>
+/*<h3>collaborators</h3>
 <ol>
     <li>Aaron Jauregui </li>
     <li>Franco Cardenas </li>
@@ -30,4 +30,67 @@
 <p>Another command to execute in the hsh, in order to have a better interaction with the program, is the cd command, which allows us to change the directory and be able to view the different files that exist in it.</p>
 <span>cd</span>
 <p>In order to list the number of files that exist in our directory, we can use the following command:</p>
-<span>ls</span>
+<span>ls</span>*/
+<h1 align ="center">
+<img src="https://i.postimg.cc/8chZ4K8N/shell.jpg" height="60%" width="50%">
+</h1>
+
+# Printf
+
+# Synopsis
+This is a simple implementation of printf function that formats and prints data
+
+# Description
+The _printf() function produces output according to a format which is described
+below. This function write its output to the stdout, the standard output stream. Returns the count of printed characters when the function is successful and -1 when the function fails.
+
+The available convertion specifiers are:
+ %c: Prints a single character.
+ %s: Prints a string of characters.
+ %%: Prints percent.
+ %d: Prints integers.
+ %i: Prints integers.
+
+# Usage
+ All the files are to be compiled on Ubuntu 20.04 LTS
+ Compile your code with "gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c"
+ Include the "main.h" header file on the functions using the _printf()
+
+# Example
+
+```
+#include "main.h"
+#include <limits.h>
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+    int len;
+    int len2;
+
+    len = _printf("Let's try to printf a simple sentence.\n");
+    len2 = printf("Let's try to printf a simple sentence.\n");
+    _printf("Length:[%d, %i]\n", len, len);
+    printf("Length:[%d, %i]\n", len2, len2);
+    _printf("Negative:[%d]\n", -762534);
+    printf("Negative:[%d]\n", -762534);
+    _printf("Character:[%c]\n", 'H');
+    printf("Character:[%c]\n", 'H');
+    _printf("String:[%s]\n", "I am a string !");
+    printf("String:[%s]\n", "I am a string !");
+    len = _printf("Percent:[%%]\n");
+    len2 = printf("Percent:[%%]\n");
+    _printf("Len:[%d]\n", len);
+    printf("Len:[%d]\n", len2);
+    return (0);
+}
+```
+
+# Autors
+| [<img src="https://avatars.githubusercontent.com/u/101225802?v=4" width=100><br><sub>Aaron Jauregui</sub>](https://github.com/aaronJau21) |  [<img src="https://avatars.githubusercontent.com/u/69946309?v=4" width=100><br><sub>Franco Cardenas </sub>](https://github.com/gustavofranco26) |
+| :---: | :---: |
