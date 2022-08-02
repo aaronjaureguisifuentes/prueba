@@ -27,11 +27,11 @@
 <ul>
 <p>From the command line, use echo to pipe a command into the shell. Here's an example:</p>
 </ul>
-<p>
+
 ```
 echo "pwd" | ./a.out
 ```
-</p>
+
 
 <table>
 <tr><th>Command</th><th>Description</th></tr>
