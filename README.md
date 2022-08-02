@@ -34,6 +34,48 @@
 <h1 align ="center">
 <img src="https://i.postimg.cc/8chZ4K8N/shell.jpg" height="60%" width="50%">
 </h1>
+Visión general
+Este es un intérprete de línea de comandos de UNIX basado en el shell simple (sh). Lee la entrada del usuario desde la línea de comandos, la interpreta y ejecuta los comandos.
+
+Empezando
+Clona este repositorio. Compile con GCC y use las siguientes banderas: gcc -Wall -Werror -Wextra -pedantic
+
+Devuelve: 0 en caso de éxito o estado de salida en caso de error
+
+Uso
+Después de compilar el programa, puede usarlo tanto en modo interactivo como no interactivo.
+
+Modo interactivo
+Desde la línea de comando, ingrese "./", seguido del nombre del ejecutable (por ejemplo: "./a.out").
+Después de que aparezca el indicador "$", escriba un comando para ejecutarlo. Repita según lo desee.
+Para salir del programa, puede escribir crtl + d o "salir".
+Modo no interactivo
+Desde la línea de comando, use echo para canalizar un comando al shell. Aquí hay un ejemplo:
+echo "pwd" | ./a.out
+Integraciones de Simple_Shell
+Dominio	Descripción
+env	imprime el medio ambiente
+salida	sale de nuestro programa shell
+Ejemplo de uso
+ls -l enumera los contenidos del directorio utilizando un formato de listado largo
+$ ls -l /tmp/
+total 0
+pwd imprime el directorio de trabajo
+$ pwd
+/home/vagrant/shelltesting
+fakefile imprime error porque "fakefile" no existe
+$ fakefile
+fakefile: No such file or directory
+archivos
+Nombre del archivo	Descripción
+shell.c	la función principal, que llama a otras funciones principales para shell
+programflowhelpers.c	principales funciones auxiliares para shell (indicar, leer la entrada del usuario, concatenar cadena para execve, bifurcar, ejecutar)
+stringhelpers.c	funciones auxiliares para leer y manipular cadenas
+tokenize+PATHhelpers.c	funciones para tokenizar la entrada del usuario y manejar la RUTA
+otherhelpers.c	otras funciones auxiliares para cadenas y env incorporadas
+holberton.h	Archivo de encabezado con prototipos de funciones, variables y bibliotecas
+Sobre
+Creado el Ubuntu 14.04 LTS. Compilado con gcc 4.8.4, usando banderas:-Wall -Werror -Wextra and -pedantic
 # Printf
 
 # Synopsis
@@ -90,6 +132,6 @@ int main(void)
 }
 ```
 
-# Autors
+# Authors
 | [<img src="https://avatars.githubusercontent.com/u/101225802?v=4" width=100><br><sub>Aaron Jauregui</sub>](https://github.com/aaronJau21) |  [<img src="https://avatars.githubusercontent.com/u/69946309?v=4" width=100><br><sub>Franco Cardenas </sub>](https://github.com/gustavofranco26) |
 | :---: | :---: |
