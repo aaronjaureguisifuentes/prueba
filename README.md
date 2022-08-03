@@ -69,7 +69,7 @@ fakefile: No such file or directory
 <h2> Files </h2>
 <table>
 <tr><th>File Name</th><th>Description</th></tr>
-<tr><th style= "text-allign: rigth" >shell.c</th><th>The main function, which calls other major functions for shell.</th></tr>
+<tr><th style= "text-align: left" >shell.c</th><th>The main function, which calls other major functions for shell.</th></tr>
 <tr><th>programflowhelpers.c</th><th>Major helper functions for shell (prompt, read user input, concatenate string for execve, fork, execute).</th></tr>
 <tr><th>stringhelpers.c</th><th>Helper functions for reading and manipulating strings.</th></tr>
 <tr><th>tokenize+PATHhelpers.c</th><th>Functions for tokenizing user input and handling the PATH.</th></tr>
