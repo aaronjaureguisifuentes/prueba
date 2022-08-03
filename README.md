@@ -1,3 +1,20 @@
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  style = text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 <h1 align ="center"> Hsh - Simple Shell</h1>
 <hr/>
 <h1 align ="center">
@@ -67,33 +84,36 @@ fakefile: No such file or directory
 ```
 
 <h2> Files </h2>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
 <table>
-<tr><th>File Name</th><th>Description</th></tr>
-<tr><th>shell.c</th><th>The main function, which calls other major functions for shell.</th></tr>
-<tr><th>programflowhelpers.c</th><th>Major helper functions for shell (prompt, read user input, concatenate string for execve, fork, execute).</th></tr>
-<tr><th>stringhelpers.c</th><th>Helper functions for reading and manipulating strings.</th></tr>
-<tr><th>tokenize+PATHhelpers.c</th><th>Functions for tokenizing user input and handling the PATH.</th></tr>
-<tr><th>otherhelpers.c</th><th>Other helper functions for strings and env built-in.</th></tr>
-<tr><th>holberton.h</th><th>Header file with function prototypes, variables, and libraries.</th></tr>
+  <tr>
+    <th>File Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>shell.c</td>
+    <td>The main function, which calls other major functions for shell.</td>
+  </tr>
+  <tr>
+    <td>programflowhelpers.c</td>
+    <td>Major helper functions for shell (prompt, read user input, concatenate string for execve, fork, execute).</td>
+  </tr>
+  <tr>
+    <td>stringhelpers.c</td>
+    <td>Helper functions for reading and manipulating strings.</td>
+  </tr>
+  <tr>
+    <td>tokenize+PATHhelpers.c</td>
+    <td>Functions for tokenizing user input and handling the PATH.</td>
+  </tr>
+  <tr>
+    <td>otherhelpers.c</td>
+    <td>Other helper functions for strings and env built-in.</td>
+  </tr>
+  <tr>
+    <td>holberton.h</td>
+    <td>Header file with function prototypes, variables, and libraries.</td>
+  </tr>
 </table>
-
 <h2> About </h2>
 <p> Created on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89 </p>
 
