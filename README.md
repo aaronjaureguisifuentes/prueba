@@ -40,7 +40,7 @@ echo "pwd" | ./a.out
 
 <h2> Example Usage </h2>
 <li>
-ls -l - lists directory contents using a long listing format.
+<b>ls -l</b>  lists directory contents using a long listing format.
 </li>
 
 ```
@@ -49,7 +49,7 @@ total 0
 ```
 
 <li>
-pwd - prints the working directory.
+<b>pwd</b>  prints the working directory.
 </li>
 
 ```
@@ -58,7 +58,7 @@ $ pwd
 ```
 
 <li>
-fakefile - prints error because "fakefile" does not exist
+<b>fakefile</b>  prints error because "fakefile" does not exist
 </li>
 
 ```
