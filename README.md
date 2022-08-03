@@ -31,11 +31,19 @@
 ```
 echo "pwd" | ./a.out
 ```
-
 <table>
-<tr><th>Command</th><th>Description</th></tr>
-<tr><th>env</th><th>prints the environment</th></tr>
-<tr><th>exit</th><th>exits out of our shell program</th></tr>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>env</td>
+    <td>prints the environment</td>
+  </tr>
+  <tr>
+    <td>exit</td>
+    <td>exits out of our shell program</td>
+  </tr>
 </table>
 
 <h2> Example Usage </h2>
