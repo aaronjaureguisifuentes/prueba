@@ -49,7 +49,7 @@ total 0
 ```
 
 <li>
-<span>pwd</span>  prints the working directory.
+```pwd``` prints the working directory.
 </li>
 
 ```
