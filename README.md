@@ -10,9 +10,11 @@
 <h2> Getting Started </h2>
 
 <p> Clone this repository:</p>
-<p> ```
-git clone git@github.com:aaronJau21/holbertonschool-simple_shell.git ```
-`</p>
+<p>
+```
+git clone git@github.com:aaronJau21/holbertonschool-simple_shell.git
+```
+</p>
 <p> Compile with <b>gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o *hsh</b> </p>
 <p>./hsh</p>
 <p>Returns: 0 upon success or exit status upon error.</p>
