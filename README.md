@@ -18,19 +18,28 @@ git clone git@github.com:aaronJau21/holbertonschool-simple_shell.git
 <p> Compile with</p>
 
 ```
-<b>gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o *hsh</b>
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o *hsh
 ```
 ```
 ./hsh
 ```
-<p>Returns: 0 upon success or exit status upon error.</p>
-
 <h2> Use </h2>
+<p>
+To exit the program, run:
+</p>
+```
+shell$ exit
+```
+<p>
+Our shell performs most conventional shell commands, such as echo, cat, pwd, ls -la, etc.
+</p>
+
+<p></p>
 <p>After compiling the program, you can use it in both interactive and non-interactive mode.</p>
 
 <h3> Interactive Mode </h3>
 <ul>
-<li>From the command line, enter "./" , followed by the executable name (ex: "./a.out").</li>
+<li>From the command line, enter "./" , followed by the executable name (ex: "./hsh").</li>
 <li>After the "$ " prompt appears, type in a command to be executed. Repeat as desired.</li>
 <li>To exit the program, you can type in either crtl + d or "exit".</li>
 </ul>
@@ -40,7 +49,7 @@ git clone git@github.com:aaronJau21/holbertonschool-simple_shell.git
 </ul>
 
 ```
-echo "pwd" | ./a.out
+echo "pwd" | ./hsh
 ```
 <table>
   <tr>
@@ -51,6 +60,14 @@ echo "pwd" | ./a.out
     <td>env</td>
     <td>prints the environment</td>
   </tr>
+  <tr>
+    <td>setenv VARIABLE VALUE</td>
+    <td>Initialize a new environment VARIABLE with VALUE, or modify an existing VARIABLE with VALUE</td>
+  </tr>
+  <tr>
+    <td>setenv VARIABLE VALUE</td>
+    <td>Initialize a new environment VARIABLE with VALUE, or modify an existing VARIABLE with VALUE</td>
+</tr>
   <tr>
     <td>exit</td>
     <td>exits out of our shell program</td>
