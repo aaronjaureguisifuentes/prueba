@@ -15,8 +15,14 @@
 git clone git@github.com:aaronJau21/holbertonschool-simple_shell.git
 ```
 
-<p> Compile with <b>gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o *hsh</b> </p>
-<p>./hsh</p>
+<p> Compile with</p>
+
+```
+<b>gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o *hsh</b>
+```
+```
+./hsh
+```
 <p>Returns: 0 upon success or exit status upon error.</p>
 
 <h2> Use </h2>
