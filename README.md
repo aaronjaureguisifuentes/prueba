@@ -116,7 +116,7 @@ ERROR!: No such file or directory
     <td>The main function of our shell, which we bind to our function that parses the command lines that are entered.</td>
   </tr>
   <tr>
-    <td>panalysis_line</td>
+    <td>functions.c</td>
     <td>This function parses the line for commands and arguments.</td>
   </tr>
   <tr>
