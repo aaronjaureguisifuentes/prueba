@@ -27,9 +27,11 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o *hsh
 <p>
 To exit the program, run:
 </p>
+
 ```
 shell$ exit
 ```
+
 <p>
 Our shell performs most conventional shell commands, such as echo, cat, pwd, ls -la, etc.
 </p>
