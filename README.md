@@ -29,7 +29,7 @@ To exit the program, run:
 </p>
 
 ```
-shell$ exit
+shell $ exit
 ```
 
 <p>
@@ -82,8 +82,8 @@ echo "pwd" | ./hsh
 </li>
 
 ```
-$ ls -l /tmp/
-total 0
+shell $ ls -l /tmp/
+total 320
 ```
 
 <li>
@@ -91,8 +91,8 @@ total 0
 </li>
 
 ```
-$ pwd
-/home/vagrant/shelltesting
+shell $ pwd
+/root/holbertonschool-simple_shell
 ```
 
 <li>
@@ -100,8 +100,9 @@ $ pwd
 </li>
 
 ```
-$ fakefile
-fakefile: No such file or directory
+shell $ fakefile
+ERROR!: No such file or directory
+./hsh: 13: fakefile: not found
 ```
 
 <h2> Files </h2>
@@ -112,27 +113,27 @@ fakefile: No such file or directory
   </tr>
   <tr>
     <td>shell.c</td>
-    <td>The main function, which calls other major functions for shell.</td>
+    <td>The main function of our shell, which we bind to our function that parses the command lines that are entered.</td>
   </tr>
   <tr>
-    <td>programflowhelpers.c</td>
-    <td>Major helper functions for shell (prompt, read user input, concatenate string for execve, fork, execute).</td>
+    <td>panalysis_line</td>
+    <td>This function parses the line for commands and arguments.</td>
   </tr>
   <tr>
-    <td>stringhelpers.c</td>
-    <td>Helper functions for reading and manipulating strings.</td>
+    <td>helpers.c</td>
+    <td>Helper functions for reading and manipulating strings, printing execution errors, and freeing memory.</td>
   </tr>
   <tr>
-    <td>tokenize+PATHhelpers.c</td>
-    <td>Functions for tokenizing user input and handling the PATH.</td>
+    <td>number.c</td>
+    <td>What this function does is print the number of errors from our shell.</td>
   </tr>
   <tr>
-    <td>otherhelpers.c</td>
-    <td>Other helper functions for strings and env built-in.</td>
+    <td>hbtlib.c</td>
+    <td>What this function does is compare two strings, create copies of strings, and print characters from strings.</td>
   </tr>
   <tr>
-    <td>holberton.h</td>
-    <td>Header file with function prototypes, variables, and libraries.</td>
+    <td>builtins.c</td>
+    <td>This function performs the conventional actions of a shell, such as moving around in it, printing environment variables, creating built-in functions, until exiting the shell.</td>
   </tr>
 </table>
 <h2> About </h2>
